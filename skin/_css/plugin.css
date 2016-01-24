@@ -1,0 +1,119 @@
+.postbox_form{
+	overflow: auto;
+	padding: 0.4em 0.8em;
+	width: 97%;
+}
+.postbox_form ul{
+	width: 95%;
+}
+category-tabs {
+	margin: 12px 0 3px 0;
+}
+.postbox .handlediv {
+	cursor: pointer;
+	float: right;
+	height: 30px;
+	width: 27px;
+}
+.postbox_form legend {
+    font-weight: bold;
+    padding: 0 2px;
+}
+.postbox_form label {
+    display: inline-block;
+    line-height: 1.8;
+    vertical-align: top;
+}
+.postbox_form fieldset ol {
+    margin: 0;
+    padding: 0;
+}
+.postbox_form fieldset li {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+}
+.postbox_form fieldset li p.helper {
+    color: #888888;
+    font-style: italic;
+}
+.postbox_form fieldset fieldset {
+    border: medium none;
+    margin: 3px 0 0;
+}
+.postbox_form fieldset fieldset legend {
+    font-weight: normal;
+    padding: 0 0 5px;
+}
+.postbox_form fieldset fieldset label {
+    display: block;
+    width: auto;
+}
+.postbox_form em {
+    color: #FF0000;
+    font-style: normal;
+    font-weight: bold;
+}
+.postbox_form label {
+    width: 35%;
+}
+.postbox_form fieldset fieldset label {
+    margin-left: 35%;
+}
+.postbox_form legend {
+    padding-left: 0;
+}
+.postbox_form legend, .postbox_form label {
+    color: #333333;
+}
+.postbox_form fieldset fieldset {
+    background: none repeat scroll 0 0 transparent;
+}
+.postbox_form fieldset.replace-border {
+    border: 1px solid #C9DCA6;
+    padding: 10px;
+}
+.postbox_form fieldset li {
+    padding: 5px 10px 7px;
+}
+.postbox_form fieldset textarea, .postbox_form fieldset input[type="text"], .postbox_form fieldset input[type="number"], .postbox_form fieldset input[type="password"], .postbox_form fieldset select {
+    width: 60%;
+}
+.postbox_form fieldset ol li fieldset textarea,.postbox_form fieldset ol li fieldset input[type="text"],.postbox_form fieldset ol li fieldset input[type="password"],.postbox_form fieldset ol li fieldset select {
+    width: 100%;
+}
+.loading{
+	display: none;
+	width: 20px;
+	height: 20px;
+	float: right;
+	padding: 5px 0;
+}
+
+.ftp_open_dir, .ftp_use_file, .ftp_other_file, .root_dir{
+	text-decoration:none;
+}
+.ftp_open_dir:before, .ftp_use_file:before, .ftp_other_file:before{
+	display:inline-block;
+	content:"";
+	width: 9px;
+	height: 9px;
+	margin: 1px 3px;
+}
+.ftp_open_dir:before{
+	background:url(../folder.png);
+}
+.ftp_use_file:before{
+	background:url(../archive.png);
+}
+.ftp_other_file:before{
+	background:url(../other.png);
+}
+
+.dir_box {
+	padding-left:1em;
+}
+
+.archive_dir, .dir_name{
+	cursor: pointer;
+}

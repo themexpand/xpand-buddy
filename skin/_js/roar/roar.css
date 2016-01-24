@@ -1,0 +1,87 @@
+.roar-body
+{
+	position:				absolute;
+	font:					12px/14px "Lucida Grande", Arial, Helvetica, Verdana, sans-serif;
+	color:					#fff;
+	text-align:				left;
+	z-index:				999;
+}
+
+.roar
+{
+	position:				absolute;
+	width:					300px;
+	cursor:					pointer;
+}
+.roar-bg
+{
+	position:				absolute;
+	z-index:				1000;
+	width:					100%;
+	height:					100%;
+	left:					0;
+	top:					0;
+	background-color:		#000;
+	-moz-border-radius:		10px;
+	-webkit-border-radius:	10px;
+	-webkit-box-shadow:		0px 0px 15px rgba(0, 0, 0, 1);
+}
+.roar-body-ugly .roar  /* IE6 */
+{
+	background-color:		#333;
+}
+.roar-body-ugly .roar-bg
+{
+	display:				none;
+}
+.roar h3
+{
+	position:				relative;
+	padding:				10px 10px 0;
+	margin:					0;
+	border:					0;
+	font-size:				14px;
+	font-weight:			bold;
+	color:					#fff;
+	z-index:				1002;
+}
+.roar p
+{
+	position:				relative;
+	padding:				10px;
+	margin:					0;
+	font-size:				12px;
+	color:					#fff;
+	z-index:				1002;
+}
+.roar_authenticationRequest,
+.roar_authenticationDenied,
+.roar_information,
+.roar_warning,
+.roar_error,
+.roar_question{
+	position:				relative;
+	width:					64px;
+	height:					64px;
+	float:					left;
+	margin:					10px 10px 0 10px;
+	z-index:				1002;
+}
+.roar_authenticationRequest{
+	background:				url(roar.png) 0 0 no-repeat;
+}
+.roar_authenticationDenied{
+	background:				url(roar.png) -64px 0 no-repeat;
+}
+.roar_information{
+	background:				url(roar.png) -128px 0 no-repeat;
+}
+.roar_warning{
+	background:				url(roar.png) -192px 0 no-repeat;
+}
+.roar_error{
+	background:				url(roar.png) -256px 0 no-repeat;
+}
+.roar_question{
+	background:				url(roar.png) -320px 0 no-repeat;
+}
