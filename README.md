@@ -30,4 +30,7 @@ Important Note: Backups to Dropbox will only work on servers with PHP 5.3.2+ (s
 	<li>User ID: demo</li>
 	<li>Pass: demo</li>
 </ul>
+
+<a class="button" href="http://themexpand.com/support" target="_blank">Free Support</a>
+
 <h4 style="text-align: center;"><span style="text-decoration: underline;"><span style="color: #ff0000; text-decoration: underline;">KEEP</span> YOUR WEBSITE <span style="color: #ff0000; text-decoration: underline;">SECURE</span> WITH REGULAR <span style="color: #ff0000; text-decoration: underline;">BACKUPS</span></span></h4>
